@@ -8,7 +8,9 @@
     "wdth" 100;
 }
 
-  
+  .body-bg{
+    background-color: rgba(241, 241, 243, 1);
+  }
 
 .navbar{
     display: flex;
@@ -189,5 +191,68 @@
   color: rgba(255, 255, 255, 1);
 }
 
+/* recent news */
+.recent-title{
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 1);
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 80px;
+}
+.recent-dricpt{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  padding-left: 160px;
+  margin-right: 160px;
+ 
+}
 
+/* satalight section  */
 
+.bangladesh-satalaght{
+  display: flex;
+  align-items: center;
+  margin-left: 160px;
+  margin-right: 160px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 24px;
+  padding: 48px;
+  gap: 32px;
+
+}
+
+/* .bangladesh-satalaght2{
+  display: flex;
+  align-items: center;
+  padding-left: 160px;
+  margin-right: 160px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 16px;
+
+} */
+.satalight-img{
+  border-radius: 24px;
+  width: 404px;
+  height: 306px;
+  
+}
+.satalight-title{
+  font-size: 32px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+}
+.satalight-time{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+}
+.satalight-description{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+}
+/* .donate today section  */
