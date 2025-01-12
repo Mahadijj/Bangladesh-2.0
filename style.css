@@ -216,24 +216,28 @@
   align-items: center;
   margin-left: 160px;
   margin-right: 160px;
+  margin-top: 32px;
   justify-content: space-between;
   background-color: rgba(255, 255, 255, 1);
   border-radius: 24px;
   padding: 48px;
   gap: 32px;
+ 
 
 }
 
-/* .bangladesh-satalaght2{
-  display: flex;
-  align-items: center;
-  padding-left: 160px;
-  margin-right: 160px;
-  justify-content: space-between;
-  background-color: rgba(255, 255, 255, 1);
-  border-radius: 16px;
+.bangladesh-satalaght2{
+display: flex;
+margin-left: 160px;
+margin-right: 160px;
+margin-top: 24px;
+margin-bottom: 80px;
+background-color: rgba(255, 255, 255, 1);
+gap: 32px;
+padding: 48px;
+border-radius: 24px;
 
-} */
+}
 .satalight-img{
   border-radius: 24px;
   width: 404px;
@@ -254,5 +258,59 @@
   font-size: 16px;
   font-weight: 400;
   color: rgba(14, 14, 14, 0.7);
+  
 }
+
 /* .donate today section  */
+
+.donae-today{
+text-align: center;
+}
+
+.donate-taitle{
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 1);
+  margin-left: 88px;
+margin-right: 88px;
+margin-top: 24px;
+margin-bottom: 32px;
+  
+}
+.donate-btn{
+  padding: 40px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 1);
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+  margin-left: 24px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+ 
+
+
+}
+.donate-btn2{
+  background-color: rgba(198, 228, 214, 1);
+}
+.donate-input{
+width: 1022px ;
+height: 64px;
+text-align: center;
+  margin-left: 160px;
+  margin-right: 160px;
+  border: none;
+}
+
+.last-button{
+  background-color: #006A50;
+  border-radius: 8px;
+  width: 151px ;
+  height: 56px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+}
+
+/* Subscribe Newsletter */
