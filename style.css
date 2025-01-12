@@ -1,12 +1,124 @@
 
-.open-sans-normal{
+.fira-sans-thin {
+  font-family: "Fira Sans", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.fira-sans-extralight {
+  font-family: "Fira Sans", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.fira-sans-light {
+  font-family: "Fira Sans", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-sans-medium {
+  font-family: "Fira Sans", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fira-sans-semibold {
+  font-family: "Fira Sans", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fira-sans-bold {
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fira-sans-extrabold {
+  font-family: "Fira Sans", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.fira-sans-black {
+  font-family: "Fira Sans", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.fira-sans-thin-italic {
+  font-family: "Fira Sans", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.fira-sans-extralight-italic {
+  font-family: "Fira Sans", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.fira-sans-light-italic {
+  font-family: "Fira Sans", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.fira-sans-regular-italic {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.fira-sans-medium-italic {
+  font-family: "Fira Sans", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.fira-sans-semibold-italic {
+  font-family: "Fira Sans", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.fira-sans-bold-italic {
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.fira-sans-extrabold-italic {
+  font-family: "Fira Sans", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.fira-sans-black-italic {
+  font-family: "Fira Sans", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+/* .open-sans-normal{
   font-family: "Open Sans", serif;
   font-optical-sizing: auto;
   font-weight: 400 ;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-}
+} */
+
+ /* banner section */
 
   .body-bg{
     background-color: rgba(241, 241, 243, 1);
@@ -35,6 +147,16 @@
   color: #006A50;
   font-size: 18px;
   font-weight: bold;
+
+}
+.nav-btn:hover{
+ background-color: #17c426;
+  border-radius: 8px;
+  padding: 20px 35px;
+  color: #006A50;
+  font-size: 18px;
+  font-weight: bold;
+  
 
 }
 
@@ -70,6 +192,20 @@
   text-align: center;
 
 }
+.banner-btn:hover {
+  background-color: #b5f309;
+  color:#FFFFFF ;
+  border-radius: 8px;
+  padding: 17px 34px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  text-align: center;
+
+}
+
+ 
+
 
 .banner-taitle{
   font-size: 56px;
@@ -98,6 +234,16 @@
   margin-left: 160px;
   margin-right: 1230px ;
   border: none;
+  
+}
+.Pillars-button:hover {
+  color: #D9D9D9;
+  width: 210px;
+  height: 46px;
+  margin-left: 160px;
+  margin-right: 1230px ;
+  border: none;
+  background-color: #17c426;
   
 }
 .piller-dad{
@@ -164,6 +310,14 @@
   color: rgba(255, 255, 255, 1);
 
 }
+.skill-btn1:hover {
+  border-radius: 8px;
+  padding: 11px 20px 11px 20px;
+  border: none;
+  background-color: rgb(0, 89, 241);
+  color: rgba(255, 255, 255, 1);
+
+}
 .skill-bg2{
   background-color: rgba(198, 228, 214, 1);
 
@@ -179,6 +333,16 @@
 
   
 }
+.skill-btn2:hover {
+  border-radius: 8px;
+  padding: 11px 20px 11px 20px;
+  border: none;
+  background-color: rgb(16, 1, 231);
+  color: rgba(255, 255, 255, 1);
+  
+
+  
+}
 .skill-bg3{
   background-color: rgba(247, 235, 207, 1);
 }
@@ -188,6 +352,13 @@
   padding: 11px 20px 11px 20px;
   border: none;
   background-color: rgba(255, 194, 57, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.skill-btn3:hover {
+  border-radius: 8px;
+  padding: 11px 20px 11px 20px;
+  border: none;
+  background-color: rgb(219, 14, 202);
   color: rgba(255, 255, 255, 1);
 }
 
@@ -291,9 +462,29 @@ margin-bottom: 32px;
 
 
 }
+.donate-btn:hover {
+  padding: 40px;
+  border-radius: 16px;
+  background-color: rgb(221, 20, 20);
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+  margin-left: 24px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+ 
+
+
+}
 .donate-btn2{
   background-color: rgba(198, 228, 214, 1);
 }
+.donate-btn2:hover {
+  background-color: rgb(31, 209, 126);
+}
+
+
+
 .donate-input{
 width: 1022px ;
 height: 64px;
@@ -314,7 +505,17 @@ text-align: center;
   margin-top: 32px;
 
 }
+.last-button:hover {
+  background-color: #17c426;
+  border-radius: 8px;
+  width: 151px ;
+  height: 56px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  margin-top: 32px;
 
+}
 /* Subscribe Newsletter */
 
 .Subscribe-Newsletter{
@@ -370,6 +571,18 @@ text-align: center;
 
 
 }
+.news-last-btn:hover {
+  background-color: rgb(238, 12, 238);
+  color: rgba(255, 255, 255, 1);
+  width: 150px;
+  height: 56px;
+  font-size: 18px;
+  border:none;
+  border-radius: 16px;
+  
+
+
+}
 .last-discription{
   font-size: 16px;
   font-weight: 400;
@@ -380,22 +593,75 @@ text-align: center;
 }
 
 /* ending section  */
+.bangladesh-1{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
 .bangladesh-20{
-text-align: center;
+
   font-weight: bold;
   font-size: 32px;
   margin-bottom: 32px;
+
 } 
 
 .last-icon{
-  display: flex;
-  align-items: center;
-  margin-left: 739.73px;
-  margin-right: 739.73 px;
-  margin-top: 64px;
-  gap: 23px;
-  width: 120px;
-  height: 24px;
+  gap: 24px;
+  padding-left: 24px;
+}
+
+
+
+
+
+.cotision{
+  background-color: rgba(255, 255, 255, 1);
+ background-image: url(B11A1--assignment-1/assets/quote-bg.png);
+ background-repeat: no-repeat;
+ 
+  border-radius: 16px;
+  padding: 24px 48px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 52px;
 
 }
+
+.qutision-dis{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7) ;
+}
+.cotision-title{
+  font-size: 20px;
+  font-weight: 600;
+  color: #707070;
+
+}
+
+
+.cotision-last-title{
+  font-size: 16px;
+}
+.yunus-bani{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7) ;
+  padding-top: 4px;
+}
+.himel{
+  color: #000;
+
+}
+
+.himel:hover{
+  background-color: #006A50;
+
+}
+
+
+
 
