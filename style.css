@@ -311,6 +311,71 @@ text-align: center;
   font-size: 18px;
   font-weight: 600;
   border: none;
+  margin-top: 32px;
+
 }
 
 /* Subscribe Newsletter */
+
+.Subscribe-Newsletter{
+  text-align: center;
+  background-color: #C6E4D6;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 24px;
+  padding: 100px 80px;
+
+  
+}
+
+.newsletter-taitle{
+  font-size: 18px;
+  font-weight: bold;
+  color: #0E0E0E;
+
+
+
+}
+.newsletter-discription{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+
+  
+}
+.news-btn{
+  width: 600px;
+  height: 55px;
+  border-radius: 16px;
+  text-align: center;
+  border: none;
+}
+
+
+.news-last-btn{
+  background-color: rgba(0, 106, 80, 1);
+  color: rgba(255, 255, 255, 1);
+  width: 150px;
+  height: 56px;
+  font-size: 18px;
+  border:none;
+  border-radius: 16px;
+  
+
+
+}
+.last-discription{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  margin-top: 24px;
+  margin-bottom: 60px;
+
+}
+
